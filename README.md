@@ -101,22 +101,23 @@ Bibliotecário e Analista de Dados
 Dados de empréstimo dos acervos.
 
 Estrutura dos DataFrames: Os DataFrames combinados pelo `concat` devem ter a mesma estrutura (mesmo número de colunas) na dimensão que está sendo concatenada.
-•
+
 Ajuste do índice: Por padrão, o `concat` mantém os índices dos DataFrames originais e os repete quando há duplicações na concatenação. Você pode usar o parâmetro `ignore_index=True` para redefinir o índice do DataFrame resultante.
-•
+
 Exemplo: `pd.concat([df1, df2, df3], axis=0)` concatenará verticalmente os DataFrames `df1`, `df2` e `df3`.
-2.
-`merge`:
-•
+
+2.`merge`:
+
 Operação: O método `merge` é usado para juntar DataFrames com base em colunas em comum, semelhante a um JOIN em bancos de dados relacionais.
-•
+
 Estrutura dos DataFrames: Os DataFrames envolvidos no `merge` devem ter colunas em comum que serão usadas como chaves para a junção.
-•
+
 Ajuste do índice: O `merge` não se preocupa com o índice dos DataFrames; ele se concentra em combinar os DataFrames com base nas colunas especificadas.
-•
+
 Exemplo: `pd.merge(df1, df2, on='coluna_comum')` juntará `df1` e `df2` com base na coluna em comum especificada.
 Resumindo, `concat` é usado para combinar DataFrames vertical ou horizontalmente sem considerar valores específicos nas colunas, enquanto `merge` é usado para combinar DataFrames com base em valores específicos em colunas em comum.
-Na prática, a escolha entre `concat` e `merge` depende da estrutura dos seus dados e do tipo de operação que você deseja realizar. Se você precisa apenas juntar DataFrames com base em colunas em comum, o `merge` é a escolha apropriada. Se você deseja simplesmente combinar DataFrames ao longo das linhas ou colunas, o `concat` é mais adequado.![image](https://github.com/PedroMoeziaJr/7_Days_of_Code_PYTHON_PANDAS/assets/112977342/00f81010-3d5e-4bad-a4ec-f26151b8c8e7)
+
+Na prática, a escolha entre `concat` e `merge` depende da estrutura dos seus dados e do tipo de operação que você deseja realizar. Se você precisa apenas juntar DataFrames com base em colunas em comum, o `merge` é a escolha apropriada. Se você deseja simplesmente combinar DataFrames ao longo das linhas ou colunas, o `concat` é mais adequado.
 
 
 
