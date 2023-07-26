@@ -1,6 +1,6 @@
-# 7 Days of code
+# 7 Days of code PYTHON e PANDAS
 
-Rápida descrição do objetivo de fazer esse projeto
+Projeto para o desafio da Alura 7 days of code voltado para linguem Python utilizado a biblioteca Pandas
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
