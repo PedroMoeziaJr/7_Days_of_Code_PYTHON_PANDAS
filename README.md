@@ -55,13 +55,13 @@ Depois, vamos carrega os dados dos Exemplares do acervo
 
 https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/blob/main/Dia_1-Importando_dados/Datasets/dados_exemplares.parquet?utm_source=ActiveCampaign&utm_medium=email&utm_content=%237DaysOfCode+-+Python+Pandas+1%2F7%3A+Importa%C3%A7%C3%A3o+de+dados&utm_campaign=%5BAlura+%237Days+Of+Code%5D%28Python+Pandas+-+1%C2%AA+Ed+%29+1%2F7
 
-<h1>Dia_1 : Unificar em um único dataframe todos os dados pertinentes para a análise.</h1>
+<h2>Dia_1 : Unificar em um único dataframe todos os dados pertinentes para a análise.</h2>
 
 <h2>Etapas:</h2>
 
 <h3> 1- Carregar os dados de empréstimos e concatena-los usando a função pd.concat()</h3>
 
-<h3>- Verificar dados duplicados e nulos e retira-los</h3>
+<h3> 2- Verificar dados duplicados e nulos e retira-los</h3>
 
 <h3> 3- Carregar os dados do acervo e mesclar com os dados de empréstimo usando a função pd.merge()</h3>
 
