@@ -4,7 +4,7 @@ Projeto para o desafio da Alura 7 days of code voltado para linguem Python utili
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
+| :sparkles: Nome        | **Análise de Dados Bibliotecário**
 | :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
 | :rocket: URL         | https://url-deploy.com.br
 | :fire: Desafio     | https://url-do-desafio.com.br
