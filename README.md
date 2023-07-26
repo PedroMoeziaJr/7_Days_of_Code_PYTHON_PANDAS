@@ -10,7 +10,8 @@ Projeto para o desafio da Alura 7 days of code voltado para linguem Python utili
 | :fire: Desafio     | [https://url-do-desafio.com.br](https://7daysofcode.io/matricula/pandas)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![image](https://github.com/PedroMoeziaJr/7_Days_of_Code_PYTHON_PANDAS/assets/112977342/634c6b7e-7ef5-4576-a78d-eaacb1036c1d)
+
 
 ## Detalhes do projeto
 
