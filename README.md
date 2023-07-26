@@ -57,7 +57,7 @@ https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/blob/main/Dia
 
 ## Primeiro passo Unificar em um único dataframe todos os dados pertinentes para a análise.
 
-
+<h1>1- Carregar os dados de empréstimos e concatena-los usando a função pd.concat()</h1>
 
 Comece pelos empréstimos e você terá os dados das transações. Depois, mescle com os dados do acervo, para que você possa entender, por exemplo, de qual biblioteca era o material emprestado ou a qual tema ele se referia. Elas se relacionam pela coluna de código de barras de cada material.
 
