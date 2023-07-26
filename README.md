@@ -59,10 +59,10 @@ https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/blob/main/Dia
 
 <h2>Etapas:</h2>
 
-## 1- Carregar os dados de empréstimos e concatena-los usando a função pd.concat()
+<h3> 1- Carregar os dados de empréstimos e concatena-los usando a função pd.concat()</h3>
 
-## 2- Verificar dados duplicados e nulos e retira-los
+<h3>- Verificar dados duplicados e nulos e retira-los</h3>
 
-## 3- Carregar os dados do acervo e mesclar com os dados de empréstimo usando a função pd.merge()
+<h3> 3- Carregar os dados do acervo e mesclar com os dados de empréstimo usando a função pd.merge()</h3>
 
 
