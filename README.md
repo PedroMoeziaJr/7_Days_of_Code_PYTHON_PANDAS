@@ -5,9 +5,9 @@ Projeto para o desafio da Alura 7 days of code voltado para linguem Python utili
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Análise de Dados Bibliotecário**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
+| :label: Tecnologias | Python, Pandas e Jupyter 
 | :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :fire: Desafio     | [https://url-do-desafio.com.br](https://7daysofcode.io/matricula/pandas)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
