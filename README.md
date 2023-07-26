@@ -55,55 +55,10 @@ Depois, vamos carrega os dados dos Exemplares do acervo
 
 https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/blob/main/Dia_1-Importando_dados/Datasets/dados_exemplares.parquet?utm_source=ActiveCampaign&utm_medium=email&utm_content=%237DaysOfCode+-+Python+Pandas+1%2F7%3A+Importa%C3%A7%C3%A3o+de+dados&utm_campaign=%5BAlura+%237Days+Of+Code%5D%28Python+Pandas+-+1%C2%AA+Ed+%29+1%2F7
 
-## Primeiro passo Unificar em um único dataframe todos os dados pertinentes para a análise.
-
-<h1>1- Carregar os dados de empréstimos e concatena-los usando a função pd.concat()</h1>
-
-Comece pelos empréstimos e você terá os dados das transações. Depois, mescle com os dados do acervo, para que você possa entender, por exemplo, de qual biblioteca era o material emprestado ou a qual tema ele se referia. Elas se relacionam pela coluna de código de barras de cada material.
-
-Lembre-se que é muito comum receber dados nulos ou duplicados, por isso não deixe de fazer a limpeza.
-
-DICA
-Você pode importar os dados diretamente do Github para seu notebook apenas passando o endereço do link “Raw” como origem.
-
-Confira a documentação do Pandas das diferentes formas de entrada de dados.
-
-EXTRA
-Deixei este artigo da Alura explicando um pouco mais sobre o formato de arquivo Apache Parquet e também esse meu texto que explica como você pode jogar fora os dados usando o Pandas.
-
-https://www.alura.com.br/artigos/arquivos-parquet?utm_source=ActiveCampaign&utm_medium=email&utm_content=%237DaysOfCode+-+Python+Pandas+1%2F7%3A+Importa%C3%A7%C3%A3o+de+dados&utm_campaign=%5BAlura+%237Days+Of+Code%5D%28Python+Pandas+-+1%C2%AA+Ed+%29+1%2F7&vgo_ee=p%2FLaa4%2BwnIxJNUkyWuhk%2Ffq%2FTOZTvVn8xPnbeo8wKKOxsMA%3D%3AmqMv8yvCKMS10gpt10HKMZXFX3dsaWAB
-
-Esse foi só o primeiro dia e amanhã a gente se encontra aqui, para mais um #7DaysOfCode de Python Pandas.
-
-Após finalizado, não deixe de postar seus resultados nas redes sociais e me marcar.
-Ficarei muito feliz de ver o seu trabalho!
-
-Boa jornada!
-
-Francisco Foz
-Bibliotecário e Analista de Dados
-
-1-Análise exploratória dos Dados.
-Dados de empréstimo dos acervos.
-
-Estrutura dos DataFrames: Os DataFrames combinados pelo `concat` devem ter a mesma estrutura (mesmo número de colunas) na dimensão que está sendo concatenada.
-
-Ajuste do índice: Por padrão, o `concat` mantém os índices dos DataFrames originais e os repete quando há duplicações na concatenação. Você pode usar o parâmetro `ignore_index=True` para redefinir o índice do DataFrame resultante.
-
-Exemplo: `pd.concat([df1, df2, df3], axis=0)` concatenará verticalmente os DataFrames `df1`, `df2` e `df3`.
-
-2.`merge`:
-
-Operação: O método `merge` é usado para juntar DataFrames com base em colunas em comum, semelhante a um JOIN em bancos de dados relacionais.
-
-Estrutura dos DataFrames: Os DataFrames envolvidos no `merge` devem ter colunas em comum que serão usadas como chaves para a junção.
-
-Ajuste do índice: O `merge` não se preocupa com o índice dos DataFrames; ele se concentra em combinar os DataFrames com base nas colunas especificadas.
-
-Exemplo: `pd.merge(df1, df2, on='coluna_comum')` juntará `df1` e `df2` com base na coluna em comum especificada.
-Resumindo, `concat` é usado para combinar DataFrames vertical ou horizontalmente sem considerar valores específicos nas colunas, enquanto `merge` é usado para combinar DataFrames com base em valores específicos em colunas em comum.
-
-Na prática, a escolha entre `concat` e `merge` depende da estrutura dos seus dados e do tipo de operação que você deseja realizar. Se você precisa apenas juntar DataFrames com base em colunas em comum, o `merge` é a escolha apropriada. Se você deseja simplesmente combinar DataFrames ao longo das linhas ou colunas, o `concat` é mais adequado.
-
+<h1>Dia_1 : Unificar em um único dataframe todos os dados pertinentes para a análise.</h1>
+<h2>Etapas:</h2>
+## 1- Carregar os dados de empréstimos e concatena-los usando a função pd.concat()
+## 2- Verificar dados duplicados e nulos e retira-los
+## 3- Carregar os dados do acervo e mesclar com os dados de empréstimo usando a função pd.merge()
 
 
