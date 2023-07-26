@@ -1,4 +1,4 @@
-# Nome do meu projeto
+# 7 Days of code
 
 Rápida descrição do objetivo de fazer esse projeto
 
