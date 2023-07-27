@@ -10,7 +10,7 @@ Projeto para o desafio da Alura 7 days of code voltado para linguem Python utili
 | :fire: Desafio     | [https://url-do-desafio.com.br](https://7daysofcode.io/matricula/pandas)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![image](https://github.com/PedroMoeziaJr/7_Days_of_Code_PYTHON_PANDAS/assets/112977342/634c6b7e-7ef5-4576-a78d-eaacb1036c1d)#vitrinedev
+![image](https://github.com/PedroMoeziaJr/7_Days_of_Code_PYTHON_PANDAS/assets/112977342/634c6b7e-7ef5-4576-a78d-eaacb1036c1d#vitrinedev)
 
 
 ## Detalhes do projeto
@@ -65,5 +65,27 @@ https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/blob/main/Dia
 <h3> 2- Verificar dados duplicados e nulos e retira-los</h3>
 
 <h3> 3- Carregar os dados do acervo e mesclar com os dados de empréstimo usando a função pd.merge()</h3>
+
+<h2>Dia_2 : Limpeza e organização dos dados.</h2>
+
+<h2>Etapas:</h2>
+
+<h3> 1- Organizado os livros conforme a classificação CDU - Classificação Decimanl Universal</h3>
+Criação do campo Classificação utilizando a seguinte orientação
+
+000 a 099: Generalidades. Ciência e conhecimento.
+100 a 199: Filosofia e psicologia.
+200 a 299: Religião.
+300 a 399: Ciências sociais.
+400 a 499: Classe vaga. Provisoriamente não ocupada.
+500 a 599: Matemática e ciências naturais.
+600 a 699: Ciências aplicadas.
+700 a 799: Belas artes.
+800 a 899: Linguagem. Língua. Linguística.
+900 a 999: Geografia. Biografia. História."
+
+<h3> 2- Excluindo o campo 'registro_sistema' por não fazer sentido utilizando a função pd.drop</h3>
+
+<h3> 3- Alterando para o tipo string os dados do campo 'matricula_ou_siape' utilizando a função .astype </h3>
 
 
