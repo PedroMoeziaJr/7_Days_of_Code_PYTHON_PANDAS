@@ -58,7 +58,6 @@ https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/blob/main/Dia
 
 <h2>Dia_1 : Unificar em um único dataframe todos os dados pertinentes para a análise.</h2>
 
-<h2>Etapas:</h2>
 
 <h3> 1- Carregar os dados de empréstimos e concatena-los usando a função pd.concat()</h3>
 
@@ -68,7 +67,6 @@ https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/blob/main/Dia
 
 <h2>Dia_2 : Limpeza e organização dos dados.</h2>
 
-<h2>Etapas:</h2>
 
 <h3> 1- Organizado os livros conforme a classificação CDU - Classificação Decimanl Universal</h3>
 Criação do campo Classificação utilizando a seguinte orientação
